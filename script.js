@@ -37,6 +37,7 @@ for (let i=1;i<=10;i++){
 
 // 5.Check number is prime or not
 let d=parseInt(prompt("enter a number: "));
+console.log("Check number is prime or not")
 for(i=2 ;i<d;i++){
     if((d%i)==0){
         console.log("not a prime number")
